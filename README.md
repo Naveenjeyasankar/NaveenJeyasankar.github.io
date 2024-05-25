@@ -1,5 +1,4 @@
-# Naveenjeyasankar.github.io
-# Naveen Jeyasankar
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://linkedin.com/in/naveen-jeyasankarb243531b9)
 [![GitHub](https://img.shields.io/badge/GitHub-black)](https://github.com/Naveenjeyasankar)
