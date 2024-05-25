@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-black)](https://github.com/Naveenjeyasankar)
 [![Email](https://img.shields.io/badge/Email-red)](mailto:jeyasankarnaveen@gmail.com)
 
-Passionate and detail-oriented recent graduate seeking to embark on an entrepreneurial journey leveraging expertise in machine learning, deep learning, data analytics, and software development to create innovative solutions and disrupt industries.
+I am a dedicated graduate seeking opportunities to apply my expertise in machine learning, deep learning, data analytics, and software development to create innovative solutions and drive industry advancements
 
 ## 🛠 Skills and Abilities
 
