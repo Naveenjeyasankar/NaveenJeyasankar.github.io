@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates - Naveen Jeyasankar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .certificates-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .certificate-item {
+            flex: 1 1 calc(33.333% - 40px); /* Three items per row, accounting for gap */
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .certificate-img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+
+        @media (max-width: 900px) {
+            .certificate-item {
+                flex: 1 1 calc(50% - 40px); /* Two items per row for smaller screens */
+            }
+        }
+
+        @media (max-width: 600px) {
+            .certificate-item {
+                flex: 1 1 100%; /* One item per row for small screens */
+            }
+        }
+    </style>
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <div class="hero">
+        <div class="nav">
+            <div class="logo">
+                <h2>Naveen Jeyasankar</h2>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Work</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="certificates.html" class="active">Certificates</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <h1>Certificates</h1>
+            <div id="certificates-list" class="certificates-container">
+                <!-- Add your certificates here -->
+                <div class="certificate-item">
+                    <img src="cert1_page-0001.jpg" alt="Certificate 1" class="certificate-img">
+                    <p>Smart India Hackathon 2023</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert2_pages-to-jpg-0001.jpg" alt="Certificate 2" class="certificate-img">
+                    <p>BITS x Postman Lab Bootcamp 2023-24</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert3.jpeg" alt="Certificate 3" class="certificate-img">
+                    <p>Complete Power BI Course For Beginners To Intermediate</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert4.jpeg" alt="Certificate 4" class="certificate-img">
+                    <p>Certificate of Excellence - Udyami Entrepreneurship Event</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert5.jpeg" alt="Certificate 5" class="certificate-img">
+                    <p>Certificate of Participation - AI & ML Quiz Competition</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert6.jpeg" alt="Certificate 6" class="certificate-img">
+                    <p>Foundations: Data, Data, Everywhere</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert7.jpeg" alt="Certificate 7" class="certificate-img">
+                    <p>Python and Data Analysis by ShapeAI</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert8.jpeg" alt="Certificate 8" class="certificate-img">
+                    <p>Data Analytics and Visualization Using Python</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert9.jpeg" alt="Certificate 9" class="certificate-img">
+                    <p>Building Deep Learning Models with TensorFlow</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert10.jpeg" alt="Certificate 10" class="certificate-img">
+                    <p>Big Data Basics</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert11.jpeg" alt="Certificate 11" class="certificate-img">
+                    <p>GUVI Python Course</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="cert12.jpeg" alt="Certificate 12" class="certificate-img">
+                    <p>NPTEL Data Analytics with Python</p>
+                </div>
+                <!-- End of certificates -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
